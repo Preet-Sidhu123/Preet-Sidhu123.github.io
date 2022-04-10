@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+   background: #34495e;
+   color:#ecf0f1;
+   line-height: 1.6;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.container {
+   width: 100%;
+   height: 100%;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+   scroll-snap-type: y mandatory;
+
+}
+
+/* NAVBAR */
+.navbar {
+   position: fixed;
+   top: 0;
+   z-index: 1;
+   display: flex;
+   background: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   height: 60px;
+}
+
+.navbar ul {
+   display: flex;
+   list-style: none;
+   width: 100%;
+   justify-content: center;
+}
+
+.navbar ul li {
+   margin: 0 1rem;
+   padding: 1rem;
+}
+
+.navbar ul li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #ecf0f1;
+}
+
+.navbar ul li a:hover {
+   color: #3498db;
+}
+
+
+section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   scroll-snap-align: center;
+}
+
+section h1 {
+   font-size: 2rem;
+}
+
+section h1 span {
+   font-size: 2.5rem;
+}
+
+#home span {
+   color:#d35400
+}
+
+#about span {
+   color: #2c3e50;
+}
+
+#project span {
+   color: #8e44ad;
+}
+
+#contact span {
+   color: #27ae60;
+}
+
+section p {
+   font-size: 1rem;
+   width: 50%;
+   height: 50px;
+}
+
+ /* SECTION IMG */
+section#home {
+   background: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537__340.jpg) no-repeat center center/cover ;
+}
+
+section#about {
+   background: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg) no-repeat center center/cover ;
+}
+
+section#project {
+   background: url(https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973__480.jpg) no-repeat center center/cover ;
+}
+
+section#contact {
+   background: url(https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_960_720.jpg) no-repeat center center/cover ;
+}
