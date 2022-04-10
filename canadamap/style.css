@@ -1,0 +1,101 @@
+body {
+   background-color: lightpink;
+   margin-bottom: 400px;
+   align-items: center;
+}
+
+
+
+h1 {
+   text-align-last: center;
+   font-family: 'Dancing Script', cursive;
+   color: red;
+   font-size: 70px;
+}
+
+h2 {
+   text-align: center; 
+   font-size: 30px;
+}
+
+
+h3 {
+   font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* table */
+
+table,th,td {
+   border: 2px solid red;
+   text-align:center ;
+   margin-top: 20px;
+   color:blue
+}
+
+th {
+   background-color: #cdf0e4;
+}
+
+td {
+   background-color: #f5a7e2;
+}
+
+table {
+   margin-left:auto;
+   margin-right:auto;
+}
+
+/* Form */
+
+.container {
+   width: 40%;
+   margin: auto;
+   overflow: hidden;
+   padding: 1rem;
+   background-color: #cdf0e4;
+   text-align: center;
+   margin-top: 7%;
+}
+
+hr {
+   width: 80%;
+   margin-top: 30px;
+}
+
+.fb {
+   padding: 0.5rem 2rem;
+   color: #fff;
+   background-color: #426782;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container input {
+   padding: 0.5rem;
+   width: 70%;
+}
+
+.container input[type=checkbox] {
+   width: auto;
+}
+
+.btn {
+   padding: 0.5rem 2rem;
+   background-color: #2ecc71;
+   font-size: 1rem;
+   width: 50%;
+   border-radius: 7px;
+   border: none;
+}
+
+.img {
+   display: flex;
+   padding-left: 35%;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+
+
